@@ -1,0 +1,150 @@
+
+.nav_bar {
+  display: flex;
+  background-color: #c0b8d5;
+  box-shadow: 1px 1px 3px 3px #bb90a3;
+  color: #120d35;
+  justify-content: space-between;
+  border-radius: 5px;
+  align-items: center;
+  position: sticky;
+  top: 10px;
+}
+
+body {
+  background-color: #c0b8d5;
+}
+  
+.nav_bar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: garamond;
+  padding: 12px;
+  color: #2c123a;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.nav_bar a:hover{
+  background-image:  linear-gradient(to right, #f79797, #a2255b, #340f52);
+  height: 9px;
+  border-radius: 9px;
+  color: whitesmoke;
+}
+h1{
+  text-align: center;
+}
+.container{
+  margin: auto;
+  width: 20%;
+  padding: 10px;
+  border: 1px solid #f2f2f2;
+  -webkit-box-shadow: 1px 1px 4px 0px rgba(176,176,176,1);
+     -moz-box-shadow: 1px 1px 4px 0px rgba(176,176,176,1);
+          box-shadow: 1px 1px 4px 0px rgba(176,176,176,1);
+  background-color: #F8F8F8;
+  border-radius: 9px;
+}
+.header{
+  background-color: #81C784;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+table{
+  width: 100%;
+}
+td{
+  width: 25%;
+}
+.result{
+  font-size: 24px;
+  padding: 16px 5px;
+  font-weight: 700;
+  text-align: right;
+  width: 96%;
+  border: none;
+  background-color: #f0eaea;
+  border-radius: 8px;
+  margin: 4px;
+}
+ .global{
+  padding: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  background-color: #F2F2F2;
+  width: 100%;
+}
+/*the global class padding reset for first-row class button*/
+.first-row{
+ padding: 7px;
+}
+.plus{
+  height: 105px;
+}
+.green{
+  background-color: #81C784;
+}
+.red{
+  background-color: #F50258
+}
+.grey{
+  background-color: #F2F2F2;
+}
+.white-text{
+  color: #fff;
+}
+.form1 h3{
+  color: #340f52;
+ 
+}
+.form{
+  display: flex;
+  align-items: center;
+ justify-content: center;
+  margin: auto;
+  
+}
+.form1 input{
+  display: block;
+  width: 325px;
+  height: 43px;
+  margin: 12px;
+  border-radius: 15px;
+  border: 1px solid #3d1f1f;
+  
+}
+.form1{
+  text-align: center;
+  
+}
+.form1 button{
+  font-family: candara;
+  color: white;
+  text-transform: uppercase;
+  width: 255px;
+  height: 41px;
+  border-radius: 12px;
+  background-image:  linear-gradient(to right, #f79797, #a2255b, #340f52);
+  border: 1px solid;
+  
+}
+.form1 select{
+  border-radius: 12px;
+  width: 275px;
+  height: 43px;
+}
+ #btn-c{
+   display: block;
+   justify-content: center;
+   align-items: center;
+   margin-top: 12px;
+   margin-left: 12px;
+   width:  325px;
+ }
+#message {
+  height: 245px;
+}
